@@ -1,21 +1,35 @@
 {
-  "purpose": "Isolated iPhone preview; NOT published",
-  "createdAt": "2026-10-20T16:49:28.106Z",
+  "purpose": "Isolated iPhone preview; publication requires a successful manual Actions run",
+  "createdAt": "2026-10-20T17:33:39.568Z",
   "appVersion": "1.4.1",
   "productionOrigin": "https://naminoto.github.io",
   "previewOwner": "yoribi-preview",
   "previewUrl": "https://yoribi-preview.github.io/yoribi-test/",
   "requiresApproval": true,
+  "releaseHistory": [
+    {
+      "date": "2026-10-21",
+      "appVersion": "1.4.1",
+      "changes": [
+        "Show everyone sharing the next birthday date, preserving the existing date rules and manual order.",
+        "Use month/day selectors for anniversaries and optional birthday-year selection or custom entry (100-9999)."
+      ],
+      "compatibilityNotes": [
+        "IndexedDB v3 and ZIP format v1 are unchanged. Existing data and old ZIP backups remain readable by this preview.",
+        "New ZIP backups containing birthday years outside 1900-2100 cannot be restored by the older production or preview app: its validation rejects these years. Restore such backups only with this updated preview or a later compatible app. Do not import preview data into production."
+      ]
+    }
+  ],
   "files": [
     {
-      "path": "assets/index-D-Z9rl5F.css",
-      "bytes": 28371,
-      "sha256": "cdf916b4bd736dd0f016a9bb6d56bf4f8165485e88b7f6d253729bcc0430edc1"
+      "path": "assets/index-Co4f23c8.css",
+      "bytes": 28678,
+      "sha256": "0c570c154654b01a1dfbe29bf6ca215d9ae213603be5c38fa49b439a674f54f7"
     },
     {
-      "path": "assets/index-kSZZ_9KS.js",
-      "bytes": 119488,
-      "sha256": "902cfb86c91297427d6309feacad95c80b22a45cfad68b65298e0e97ef6f2b8c"
+      "path": "assets/index-EBWG_X_q.js",
+      "bytes": 122157,
+      "sha256": "70040b55486186d3999a42d6d02b434853f7b9c5bb592ad23e2c54e1d6742e11"
     },
     {
       "path": "fonts/zen-maru-gothic/METADATA.pb",
@@ -74,8 +88,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 16753,
-      "sha256": "c399cb5a0755df4eff55f8ca60af2535e41996cd662ac1307b5458b92e3391e3"
+      "bytes": 17095,
+      "sha256": "2eee485f5799e7add69a96e5732cd75b7bdd116144cf02dcdfa97e67771c9093"
     },
     {
       "path": "manifest.webmanifest",
@@ -85,7 +99,7 @@
     {
       "path": "sw.js",
       "bytes": 2304,
-      "sha256": "b7c42cfd725c432bfd021c026ad42e0c1d483c873ff1e7b29e85b553f0c702c6"
+      "sha256": "020bdb82a4c44f0bc425b2cda2582faf1e6ee500a786c04bf8e6363f4d31f3c3"
     }
   ]
 }
