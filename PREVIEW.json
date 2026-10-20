@@ -1,0 +1,91 @@
+{
+  "purpose": "Isolated iPhone preview; NOT published",
+  "createdAt": "2026-10-20T16:49:28.106Z",
+  "appVersion": "1.4.1",
+  "productionOrigin": "https://naminoto.github.io",
+  "previewOwner": "yoribi-preview",
+  "previewUrl": "https://yoribi-preview.github.io/yoribi-test/",
+  "requiresApproval": true,
+  "files": [
+    {
+      "path": "assets/index-D-Z9rl5F.css",
+      "bytes": 28371,
+      "sha256": "cdf916b4bd736dd0f016a9bb6d56bf4f8165485e88b7f6d253729bcc0430edc1"
+    },
+    {
+      "path": "assets/index-kSZZ_9KS.js",
+      "bytes": 119488,
+      "sha256": "902cfb86c91297427d6309feacad95c80b22a45cfad68b65298e0e97ef6f2b8c"
+    },
+    {
+      "path": "fonts/zen-maru-gothic/METADATA.pb",
+      "bytes": 2612,
+      "sha256": "ca7003349939baf51b9d493fc556be2a02bcae9adf954750b64968aeb0bef784"
+    },
+    {
+      "path": "fonts/zen-maru-gothic/OFL.txt",
+      "bytes": 4402,
+      "sha256": "2a20cf7ce1909d8ee1e949095d340f7d7656705f7c810a2d6faf56800ad0cb3d"
+    },
+    {
+      "path": "fonts/zen-maru-gothic/SOURCE.json",
+      "bytes": 2366,
+      "sha256": "80b2fadd7e844ef8ecc29a28c2b7ad53a16d889a2eecb934ba4abe8e466a03de"
+    },
+    {
+      "path": "fonts/zen-maru-gothic/ZenMaruGothic-Bold.ttf",
+      "bytes": 3779008,
+      "sha256": "fe24426b9c8b5523a0146a8235c8674eccf0493af354a53ec895c3596d9eb745"
+    },
+    {
+      "path": "fonts/zen-maru-gothic/ZenMaruGothic-Medium.ttf",
+      "bytes": 3810988,
+      "sha256": "3cfdb98a13571ede17fcc769f5093a97c38b80a7b9b2ab754a26b4d822092b3b"
+    },
+    {
+      "path": "fonts/zen-maru-gothic/ZenMaruGothic-Regular.ttf",
+      "bytes": 3832756,
+      "sha256": "a0c0b53543e0993ae2225e629c833f3d51495ad31720694ff112ce4ce11111ef"
+    },
+    {
+      "path": "icons/apple-touch-icon.png",
+      "bytes": 43158,
+      "sha256": "c2648bc02761a28cb90c77acc20e55e5964b44f1afaba930706d0b96a8528116"
+    },
+    {
+      "path": "icons/favicon-48.png",
+      "bytes": 4379,
+      "sha256": "9370c3f3a58c6ced6e86c88d872ac54cbb4024b67962d154fe293d842e926b41"
+    },
+    {
+      "path": "icons/icon-192.png",
+      "bytes": 48297,
+      "sha256": "49c27090eb2112a15c3de5bfd0f9cdb32882aa2c0fb9f6ab7051873fbada1fd7"
+    },
+    {
+      "path": "icons/icon-512.png",
+      "bytes": 315679,
+      "sha256": "62942ecc849eb2ee83f864ae4733c6cadc209b967ca77714b6d5feccc045d3b3"
+    },
+    {
+      "path": "icons/icon-maskable-512.png",
+      "bytes": 213791,
+      "sha256": "21c54a8eb2fa689b747cb8c61b5fe80b1589e73a0554cfdc756d864007b183f4"
+    },
+    {
+      "path": "index.html",
+      "bytes": 16753,
+      "sha256": "c399cb5a0755df4eff55f8ca60af2535e41996cd662ac1307b5458b92e3391e3"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 682,
+      "sha256": "72fca9cd1d06d4dae81f8bfdfdaa446ceb427d54742cc62905fce007b964b214"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 2304,
+      "sha256": "b7c42cfd725c432bfd021c026ad42e0c1d483c873ff1e7b29e85b553f0c702c6"
+    }
+  ]
+}
