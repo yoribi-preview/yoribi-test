@@ -1,8 +1,8 @@
 const SCOPE = self.registration.scope;
 const APP_VERSION = '1.4.1';
 const CACHE_PREFIX = 'birthday-circle-shell-' + encodeURIComponent(new URL(SCOPE).pathname) + '-';
-const CACHE_NAME = CACHE_PREFIX + '0c2b96bc467f7438';
-const PRECACHE = ["./assets/index-CtJtksCw.js","./assets/index-CyLyjAmY.css","./fonts/zen-maru-gothic/METADATA.pb","./fonts/zen-maru-gothic/OFL.txt","./fonts/zen-maru-gothic/SOURCE.json","./fonts/zen-maru-gothic/ZenMaruGothic-Bold.ttf","./fonts/zen-maru-gothic/ZenMaruGothic-Medium.ttf","./fonts/zen-maru-gothic/ZenMaruGothic-Regular.ttf","./icons/apple-touch-icon.png","./icons/favicon-48.png","./icons/icon-192.png","./icons/icon-512.png","./icons/icon-maskable-512.png","./index.html","./manifest.webmanifest"];
+const CACHE_NAME = CACHE_PREFIX + 'b831f92a31e9d263';
+const PRECACHE = ["./assets/index-CVUVo-pT.css","./assets/index-ZdBlH7_D.js","./fonts/zen-maru-gothic/METADATA.pb","./fonts/zen-maru-gothic/OFL.txt","./fonts/zen-maru-gothic/SOURCE.json","./fonts/zen-maru-gothic/ZenMaruGothic-Bold.ttf","./fonts/zen-maru-gothic/ZenMaruGothic-Medium.ttf","./fonts/zen-maru-gothic/ZenMaruGothic-Regular.ttf","./icons/apple-touch-icon.png","./icons/favicon-48.png","./icons/icon-192.png","./icons/icon-512.png","./icons/icon-maskable-512.png","./index.html","./manifest.webmanifest"];
 const appUrl = (path) => new URL(path, SCOPE).href;
 const allowedPaths = new Set(PRECACHE.map((path) => new URL(path, SCOPE).pathname));
 
