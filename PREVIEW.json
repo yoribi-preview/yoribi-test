@@ -1,12 +1,23 @@
 {
   "purpose": "Isolated iPhone preview; publication requires a successful manual Actions run",
-  "createdAt": "2026-10-21T15:28:37.580Z",
+  "createdAt": "2026-10-21T15:39:44.984Z",
   "appVersion": "1.4.1",
   "productionOrigin": "https://naminoto.github.io",
   "previewOwner": "yoribi-preview",
   "previewUrl": "https://yoribi-preview.github.io/yoribi-test/",
   "requiresApproval": true,
   "releaseHistory": [
+  {
+    "date": "2026-10-22",
+    "appVersion": "1.4.1",
+    "changes": [
+      "Style the existing Add person button at 80% of its content width, horizontally centered, with 48px height and centered icon/text.",
+      "Preserve Calendar > Add person > People order, five navigation items, no Add person on Home, and the existing form."
+    ],
+    "compatibilityNotes": [
+      "IndexedDB v3, ZIP v1, all user data, category values, Service Worker scope and production are unchanged."
+    ]
+  },
   {
     "date": "2026-10-22",
     "appVersion": "1.4.1",
@@ -55,14 +66,14 @@
 ],
   "files": [
     {
-      "path": "assets/index-BuIfxpi_.js",
+      "path": "assets/index-C5eZXrzQ.js",
       "bytes": 122172,
       "sha256": "03dc4f7ef2b765c1f1e865cf5ed96129d6d15a03bf5bff3f97b60fbca4070d1e"
     },
     {
-      "path": "assets/index-CEsucF6n.css",
-      "bytes": 28553,
-      "sha256": "546479ca24041192ed1599cd0c6d2fb7413b260b91e0d70d2aa3cd6733fac9d7"
+      "path": "assets/index-CyLyjAmY.css",
+      "bytes": 28665,
+      "sha256": "b8a1274bc800c7fbdea7c4487cd672a58a660ae1392f30a5ca9b76f958310937"
     },
     {
       "path": "fonts/zen-maru-gothic/METADATA.pb",
@@ -122,7 +133,7 @@
     {
       "path": "index.html",
       "bytes": 17177,
-      "sha256": "fae76b97b843ca24bfc0dee78431f2c8913031a2bca42983366690f61af8d382"
+      "sha256": "9daadeaef983a07722f1c190c203eb6a81f9732667a4baef14a4ec3ecc116093"
     },
     {
       "path": "manifest.webmanifest",
@@ -132,7 +143,7 @@
     {
       "path": "sw.js",
       "bytes": 2304,
-      "sha256": "363e24674918b1a617fd2aa7775a8bb11b4419bf656c366e7dfebc344d6e237f"
+      "sha256": "ae9d83a6a71b31ec16fe5db24081b15d8071b03b19ef48cdfdf01d47eeb27d68"
     }
   ]
 }
