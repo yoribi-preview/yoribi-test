@@ -1,12 +1,23 @@
 {
   "purpose": "Isolated iPhone preview; publication requires a successful manual Actions run",
-  "createdAt": "2026-10-21T15:39:44.984Z",
+  "createdAt": "2026-10-21T16:35:11.729Z",
   "appVersion": "1.4.1",
   "productionOrigin": "https://naminoto.github.io",
   "previewOwner": "yoribi-preview",
   "previewUrl": "https://yoribi-preview.github.io/yoribi-test/",
   "requiresApproval": true,
   "releaseHistory": [
+  {
+    "date": "2026-10-22",
+    "appVersion": "1.4.1",
+    "changes": [
+      "Show birthdays occurring today only in Today events, excluding today from Next birthday and Upcoming birthdays.",
+      "Keep everyone sharing the next future birthday date, manual order, empty states, year boundaries and leap-day rules. Keep the centered 80-percent, 48px Add person button."
+    ],
+    "compatibilityNotes": [
+      "IndexedDB v3, ZIP v1, all user data, shared date calculations, Service Worker scope and production are unchanged. Today-only birthdays are not shifted to next year in Home upcoming sections."
+    ]
+  },
   {
     "date": "2026-10-22",
     "appVersion": "1.4.1",
@@ -66,9 +77,9 @@
 ],
   "files": [
     {
-      "path": "assets/index-C5eZXrzQ.js",
-      "bytes": 122172,
-      "sha256": "03dc4f7ef2b765c1f1e865cf5ed96129d6d15a03bf5bff3f97b60fbca4070d1e"
+      "path": "assets/index-CtJtksCw.js",
+      "bytes": 122201,
+      "sha256": "7d1d1706a5fd94f86bdef67032214791ea3d18c0e60f9083d5e7b968abc30d75"
     },
     {
       "path": "assets/index-CyLyjAmY.css",
@@ -133,7 +144,7 @@
     {
       "path": "index.html",
       "bytes": 17177,
-      "sha256": "9daadeaef983a07722f1c190c203eb6a81f9732667a4baef14a4ec3ecc116093"
+      "sha256": "79f15d1fdcf4da33d332b27e6fa9dddb20ce9117742f119a06ff0f4872bfaaf9"
     },
     {
       "path": "manifest.webmanifest",
@@ -143,7 +154,7 @@
     {
       "path": "sw.js",
       "bytes": 2304,
-      "sha256": "ae9d83a6a71b31ec16fe5db24081b15d8071b03b19ef48cdfdf01d47eeb27d68"
+      "sha256": "dcd9e0454cade3e7d988c5d823be1a7059aaf66dbd2c394706afff366e5ceb2a"
     }
   ]
 }
