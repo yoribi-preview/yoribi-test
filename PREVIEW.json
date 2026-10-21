@@ -1,46 +1,57 @@
 {
   "purpose": "Isolated iPhone preview; publication requires a successful manual Actions run",
-  "createdAt": "2026-10-21T14:27:26.121Z",
+  "createdAt": "2026-10-21T15:09:16.726Z",
   "appVersion": "1.4.1",
   "productionOrigin": "https://naminoto.github.io",
   "previewOwner": "yoribi-preview",
   "previewUrl": "https://yoribi-preview.github.io/yoribi-test/",
   "requiresApproval": true,
   "releaseHistory": [
-    {
-      "date": "2026-10-21",
-      "appVersion": "1.4.1",
-      "changes": [
-        "Rename the REAL_FRIEND display label to 現実の知り合い / In-person acquaintances without changing stored category values.",
-        "Move Add person from Home to the shared navigation between Calendar and People, reusing the existing form."
-      ],
-      "compatibilityNotes": [
-        "IndexedDB v3, ZIP format v1, existing data, Service Worker scope and production remain unchanged."
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "appVersion": "1.4.1",
-      "changes": [
-        "Show everyone sharing the next birthday date, preserving the existing date rules and manual order.",
-        "Use month/day selectors for anniversaries and optional birthday-year selection or custom entry (100-9999)."
-      ],
-      "compatibilityNotes": [
-        "IndexedDB v3 and ZIP format v1 are unchanged. Existing data and old ZIP backups remain readable by this preview.",
-        "New ZIP backups containing birthday years outside 1900-2100 cannot be restored by the older production or preview app: its validation rejects these years. Restore such backups only with this updated preview or a later compatible app. Do not import preview data into production."
-      ]
-    }
-  ],
+  {
+    "date": "2026-10-22",
+    "appVersion": "1.4.1",
+    "changes": [
+      "Move Add person directly below the birthday and anniversary calendar heading, reusing the existing form.",
+      "Restore the five navigation items: Home, Calendar, People, Birthdays, Settings. Keep Home without an Add person button."
+    ],
+    "compatibilityNotes": [
+      "Save and cancel retain the Calendar screen. IndexedDB v3, ZIP v1, all user data, category values, scope and production are unchanged."
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "appVersion": "1.4.1",
+    "changes": [
+      "Rename the REAL_FRIEND display label to 現実の知り合い / In-person acquaintances without changing stored category values.",
+      "Move Add person from Home to the shared navigation between Calendar and People, reusing the existing form."
+    ],
+    "compatibilityNotes": [
+      "IndexedDB v3, ZIP format v1, existing data, Service Worker scope and production remain unchanged."
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "appVersion": "1.4.1",
+    "changes": [
+      "Show everyone sharing the next birthday date, preserving the existing date rules and manual order.",
+      "Use month/day selectors for anniversaries and optional birthday-year selection or custom entry (100-9999)."
+    ],
+    "compatibilityNotes": [
+      "IndexedDB v3 and ZIP format v1 are unchanged. Existing data and old ZIP backups remain readable by this preview.",
+      "New ZIP backups containing birthday years outside 1900-2100 cannot be restored by the older production or preview app: its validation rejects these years. Restore such backups only with this updated preview or a later compatible app. Do not import preview data into production."
+    ]
+  }
+],
   "files": [
     {
-      "path": "assets/index-BweVQzZS.css",
-      "bytes": 28382,
-      "sha256": "96ea1ce6c66247c0bee37aa7bcaf70eb57e014ea7ade9f96e0f5b4eb1389846e"
+      "path": "assets/index-BCpeRatC.css",
+      "bytes": 28334,
+      "sha256": "a28e28c340c8bfaedb48829f56ad41008dcc40a9668b4f2c5635cf8bcda33926"
     },
     {
-      "path": "assets/index-CIn1xXkP.js",
-      "bytes": 122237,
-      "sha256": "4c2b78ae3a88972a40eb0a83ea3dfe614ac3a3cfdd27279bfb239d0219b75d96"
+      "path": "assets/index-QdGkATdU.js",
+      "bytes": 122172,
+      "sha256": "03dc4f7ef2b765c1f1e865cf5ed96129d6d15a03bf5bff3f97b60fbca4070d1e"
     },
     {
       "path": "fonts/zen-maru-gothic/METADATA.pb",
@@ -99,8 +110,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 17188,
-      "sha256": "8999f292d83c33872c7e07cc7a7343c8f3825b11f0e3732d051222fe2a9bf152"
+      "bytes": 17175,
+      "sha256": "15b0a23b2807b348282fd8a04e82e421d671aaeeb3f8576fbc1d4099e70278a6"
     },
     {
       "path": "manifest.webmanifest",
@@ -110,7 +121,7 @@
     {
       "path": "sw.js",
       "bytes": 2304,
-      "sha256": "21ac88317e4cafd6181cdad5021276b9d352058934588a27ecd7b330fb0ed39d"
+      "sha256": "f774dfdd45dd448ca527f0bf9abc573f1c865b165be6f0c4e78d7f644bc111b8"
     }
   ]
 }
