@@ -1,12 +1,23 @@
 {
   "purpose": "Isolated iPhone preview; publication requires a successful manual Actions run",
-  "createdAt": "2026-10-20T17:33:39.568Z",
+  "createdAt": "2026-10-21T14:27:26.121Z",
   "appVersion": "1.4.1",
   "productionOrigin": "https://naminoto.github.io",
   "previewOwner": "yoribi-preview",
   "previewUrl": "https://yoribi-preview.github.io/yoribi-test/",
   "requiresApproval": true,
   "releaseHistory": [
+    {
+      "date": "2026-10-21",
+      "appVersion": "1.4.1",
+      "changes": [
+        "Rename the REAL_FRIEND display label to 現実の知り合い / In-person acquaintances without changing stored category values.",
+        "Move Add person from Home to the shared navigation between Calendar and People, reusing the existing form."
+      ],
+      "compatibilityNotes": [
+        "IndexedDB v3, ZIP format v1, existing data, Service Worker scope and production remain unchanged."
+      ]
+    },
     {
       "date": "2026-10-21",
       "appVersion": "1.4.1",
@@ -22,14 +33,14 @@
   ],
   "files": [
     {
-      "path": "assets/index-Co4f23c8.css",
-      "bytes": 28678,
-      "sha256": "0c570c154654b01a1dfbe29bf6ca215d9ae213603be5c38fa49b439a674f54f7"
+      "path": "assets/index-BweVQzZS.css",
+      "bytes": 28382,
+      "sha256": "96ea1ce6c66247c0bee37aa7bcaf70eb57e014ea7ade9f96e0f5b4eb1389846e"
     },
     {
-      "path": "assets/index-EBWG_X_q.js",
-      "bytes": 122157,
-      "sha256": "70040b55486186d3999a42d6d02b434853f7b9c5bb592ad23e2c54e1d6742e11"
+      "path": "assets/index-CIn1xXkP.js",
+      "bytes": 122237,
+      "sha256": "4c2b78ae3a88972a40eb0a83ea3dfe614ac3a3cfdd27279bfb239d0219b75d96"
     },
     {
       "path": "fonts/zen-maru-gothic/METADATA.pb",
@@ -88,8 +99,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 17095,
-      "sha256": "2eee485f5799e7add69a96e5732cd75b7bdd116144cf02dcdfa97e67771c9093"
+      "bytes": 17188,
+      "sha256": "8999f292d83c33872c7e07cc7a7343c8f3825b11f0e3732d051222fe2a9bf152"
     },
     {
       "path": "manifest.webmanifest",
@@ -99,7 +110,7 @@
     {
       "path": "sw.js",
       "bytes": 2304,
-      "sha256": "020bdb82a4c44f0bc425b2cda2582faf1e6ee500a786c04bf8e6363f4d31f3c3"
+      "sha256": "21ac88317e4cafd6181cdad5021276b9d352058934588a27ecd7b330fb0ed39d"
     }
   ]
 }

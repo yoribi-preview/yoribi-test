@@ -13,8 +13,8 @@
   <link rel="icon" type="image/png" sizes="48x48" href="./icons/favicon-48.png">
   <link rel="manifest" href="./manifest.webmanifest">
   <title>Yoribi テスト</title>
-  <script type="module" crossorigin src="./assets/index-EBWG_X_q.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-Co4f23c8.css">
+  <script type="module" crossorigin src="./assets/index-CIn1xXkP.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BweVQzZS.css">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' blob:; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
 </head>
 <body>
@@ -27,7 +27,6 @@
     <div class="update-banner" id="update-banner" role="status" aria-live="polite" hidden><span id="update-message">アップデートがあります。データは端末に残ります。</span><div class="update-actions"><button id="update-later" type="button">あとで</button><button id="update-app" type="button">更新する</button></div></div>
     <main id="main">
       <section class="view" id="view-home">
-        <button class="primary" id="home-add" type="button">＋ 人物を追加</button>
         <section class="home-section" aria-labelledby="home-today-title"><div class="home-heading"><h2 id="home-today-title">今日の予定</h2><time id="home-today-date"></time></div><div class="home-list" id="home-today"></div></section>
         <section class="home-section" aria-labelledby="home-next-title"><div class="home-heading"><h2 id="home-next-title">次の誕生日</h2></div><div class="home-list" id="home-next"></div></section>
         <section class="home-section" aria-labelledby="home-upcoming-title"><div class="home-heading"><h2 id="home-upcoming-title">もうすぐ誕生日</h2><span id="home-upcoming-range">30日以内</span></div><div class="home-list" id="home-upcoming"></div></section>
@@ -63,7 +62,7 @@
         <div class="privacy-note">このアプリはログイン・クラウド同期・X APIを使用しません。別端末へ移すときはZIPを使ってください。ブラウザの「サイトデータ削除」ではデータが失われます。</div>
       </section>
     </main>
-    <nav class="bottom-nav" aria-label="画面切り替え"><button type="button" data-tab="home"><span>⌂</span>ホーム</button><button type="button" data-tab="calendar"><span>▦</span>カレンダー</button><button type="button" data-tab="people"><span>♙</span>人物</button><button type="button" data-tab="birthdays"><span>◷</span>誕生日</button><button type="button" data-tab="settings"><span>⚙</span>設定</button></nav>
+    <nav class="bottom-nav" aria-label="画面切り替え"><button type="button" data-tab="home"><span>⌂</span>ホーム</button><button type="button" data-tab="calendar"><span>▦</span>カレンダー</button><button type="button" id="nav-add" aria-haspopup="dialog" aria-controls="person-dialog"><span aria-hidden="true">＋</span><span class="nav-add-label">人物を追加</span></button><button type="button" data-tab="people"><span>♙</span>人物</button><button type="button" data-tab="birthdays"><span>◷</span>誕生日</button><button type="button" data-tab="settings"><span>⚙</span>設定</button></nav>
   </div>
 
   <dialog id="person-dialog" class="sheet"><div class="dialog-head"><div><p class="eyebrow">PERSON</p><h2 id="person-dialog-title">人物を追加</h2></div><button class="icon-button" type="button" data-close="person-dialog" aria-label="閉じる">×</button></div><form id="person-form" class="form-body"><input id="person-id" type="hidden"><label>表示名 <span class="required">必須</span><input id="person-name" maxlength="100" required></label><label>カテゴリ<select id="person-category"></select></label><label>作品名・所属<input id="person-series" maxlength="200"></label><div class="form-row"><label>誕生月<select id="person-birth-month"><option value="">未登録</option></select></label><label>誕生日<select id="person-birth-day"><option value="">未登録</option></select></label></div><div class="form-row"><div class="birth-year-field" role="group" aria-labelledby="birth-year-label"><span id="birth-year-label">誕生年（任意）</span><select id="person-birth-year-mode" aria-label="誕生年の入力方法"></select><select id="person-birth-year-choice" aria-labelledby="birth-year-label"></select><input id="person-birth-year" type="text" inputmode="numeric" pattern="[0-9]{3,4}" maxlength="4" aria-labelledby="birth-year-label" placeholder="例: 1998" hidden></div><label class="check aligned"><input id="person-show-age" type="checkbox">年齢を表示</label></div><label>X username（任意）<input id="person-username" maxlength="50" placeholder="@username"></label><label>XプロフィールURL（任意）<input id="person-x-url" type="url" placeholder="https://x.com/username"></label><label>プロフィール画像<input id="person-image" type="file" accept="image/jpeg,image/png,image/webp,image/gif"><small>登録時に長辺512pxへ縮小・圧縮します。</small></label><label class="check" id="remove-image-wrap" hidden><input id="person-remove-image" type="checkbox">現在の画像を削除</label><label>メモ<textarea id="person-memo" rows="3" maxlength="5000"></textarea></label><div class="section-heading compact"><h3>その他の記念日</h3><button class="quiet" id="add-anniversary" type="button">＋ 追加</button></div><div id="anniversary-fields" class="repeat-fields"></div><div class="section-heading compact"><h3>関連URL</h3><button class="quiet" id="add-link" type="button">＋ 追加</button></div><div id="link-fields" class="repeat-fields"></div><p class="form-error" id="person-error" role="alert" hidden></p><div class="dialog-actions"><button class="danger-link" id="delete-person" type="button" hidden>人物を削除</button><button class="primary" type="submit">保存する</button></div></form></dialog>
