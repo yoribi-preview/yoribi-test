@@ -1,12 +1,23 @@
 {
   "purpose": "Isolated iPhone preview; publication requires a successful manual Actions run",
-  "createdAt": "2026-10-21T15:09:16.726Z",
+  "createdAt": "2026-10-21T15:28:37.580Z",
   "appVersion": "1.4.1",
   "productionOrigin": "https://naminoto.github.io",
   "previewOwner": "yoribi-preview",
   "previewUrl": "https://yoribi-preview.github.io/yoribi-test/",
   "requiresApproval": true,
   "releaseHistory": [
+  {
+    "date": "2026-10-22",
+    "appVersion": "1.4.1",
+    "changes": [
+      "Move Add person below the monthly calendar final week and above the People heading and count, in both DOM and visual order at every viewport.",
+      "Keep the five navigation items, no Add person on Home, and the existing form and Calendar screen after save or cancel."
+    ],
+    "compatibilityNotes": [
+      "IndexedDB v3, ZIP v1, all user data, stored category values, Service Worker scope and production are unchanged."
+    ]
+  },
   {
     "date": "2026-10-22",
     "appVersion": "1.4.1",
@@ -44,14 +55,14 @@
 ],
   "files": [
     {
-      "path": "assets/index-BCpeRatC.css",
-      "bytes": 28334,
-      "sha256": "a28e28c340c8bfaedb48829f56ad41008dcc40a9668b4f2c5635cf8bcda33926"
-    },
-    {
-      "path": "assets/index-QdGkATdU.js",
+      "path": "assets/index-BuIfxpi_.js",
       "bytes": 122172,
       "sha256": "03dc4f7ef2b765c1f1e865cf5ed96129d6d15a03bf5bff3f97b60fbca4070d1e"
+    },
+    {
+      "path": "assets/index-CEsucF6n.css",
+      "bytes": 28553,
+      "sha256": "546479ca24041192ed1599cd0c6d2fb7413b260b91e0d70d2aa3cd6733fac9d7"
     },
     {
       "path": "fonts/zen-maru-gothic/METADATA.pb",
@@ -110,8 +121,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 17175,
-      "sha256": "15b0a23b2807b348282fd8a04e82e421d671aaeeb3f8576fbc1d4099e70278a6"
+      "bytes": 17177,
+      "sha256": "fae76b97b843ca24bfc0dee78431f2c8913031a2bca42983366690f61af8d382"
     },
     {
       "path": "manifest.webmanifest",
@@ -121,7 +132,7 @@
     {
       "path": "sw.js",
       "bytes": 2304,
-      "sha256": "f774dfdd45dd448ca527f0bf9abc573f1c865b165be6f0c4e78d7f644bc111b8"
+      "sha256": "363e24674918b1a617fd2aa7775a8bb11b4419bf656c366e7dfebc344d6e237f"
     }
   ]
 }
