@@ -1,6 +1,6 @@
 {
   "purpose": "Isolated iPhone preview; publication requires a successful manual Actions run",
-  "createdAt": "2026-10-21T17:02:33.463Z",
+  "createdAt": "2026-10-22T07:23:43.396Z",
   "appVersion": "1.4.1",
   "productionOrigin": "https://naminoto.github.io",
   "previewOwner": "yoribi-preview",
@@ -8,14 +8,14 @@
   "requiresApproval": true,
   "files": [
     {
-      "path": "assets/index-CVUVo-pT.css",
-      "bytes": 30711,
-      "sha256": "3c13ee08c2ad1b3cac1fb5823a3494c125a3e6bd81c900a084577193ef91f35f"
+      "path": "assets/index-B2BlJKeF.js",
+      "bytes": 134392,
+      "sha256": "2421ef112dda284786e0e7d6ca008984a95b0d30ce51ba0adb9869bda173082f"
     },
     {
-      "path": "assets/index-ZdBlH7_D.js",
-      "bytes": 127086,
-      "sha256": "e8f0e02e9c2818574da9e34fe98ec1ae58ec0df4b2fa64346a2674f0a428d1a7"
+      "path": "assets/index-C-wwZ_a0.css",
+      "bytes": 31595,
+      "sha256": "fcca587360d0839954248871f1da9404601912f7e9354631422bc3b548f6d447"
     },
     {
       "path": "fonts/zen-maru-gothic/METADATA.pb",
@@ -75,7 +75,7 @@
     {
       "path": "index.html",
       "bytes": 17177,
-      "sha256": "70fa18531d6abdf4ac1314e1758f68caa8925bdeaf77867a6f879aedbe023055"
+      "sha256": "e6d3512aa1aafd3c800e4ecfacc18626d8045c28ece93c6fdb22a000ccac0ecc"
     },
     {
       "path": "manifest.webmanifest",
@@ -85,10 +85,23 @@
     {
       "path": "sw.js",
       "bytes": 2304,
-      "sha256": "9bfdbdfc0e0961d32ed2613293f0b8f3051340d41d2aad464cc89688a1e0bab5"
+      "sha256": "0c965e620389932219bdc2116f4c9b06b5a53e63f2b02d42c0a750757fbc47f1"
     }
   ],
   "releaseHistory": [
+    {
+      "date": "2026-10-22",
+      "appVersion": "1.4.1",
+      "changes": [
+        "Remove person ellipsis buttons only inside calendar date cells; keep rail and People menus.",
+        "Unify date background, number, person icon and overflow taps into the existing day-event list; preserve empty-date registration and month/scroll position.",
+        "Add Manage, confirmed atomic multi-person deletion, and display-only name/birthday/registration-date sorting.",
+        "Preserve pointer drag/drop, person editing/deletion menus, dark cards, Home birthday-today exclusion and centered 80-percent 48px Add person button."
+      ],
+      "compatibilityNotes": [
+        "Version 1.4.1, IndexedDB v3, ZIP v1, existing data, Service Worker scope and production are unchanged. Bulk cancellation and transaction abort preserve all selected profiles, images, anniversaries and notifications."
+      ]
+    },
     {
       "date": "2026-10-22",
       "appVersion": "1.4.1",
