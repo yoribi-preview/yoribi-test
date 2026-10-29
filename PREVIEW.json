@@ -1,21 +1,37 @@
 {
-  "purpose": "Isolated iPhone preview; publication requires a successful manual Actions run",
-  "createdAt": "2026-10-22T07:23:43.396Z",
-  "appVersion": "1.4.1",
+  "purpose": "Isolated iPhone preview; NOT published",
+  "createdAt": "2026-10-29T13:54:46.530Z",
+  "sourceVersion": "1.4.2",
+  "appVersion": "1.4.3-candidate",
+  "releaseChannel": "candidate",
+  "officialRelease": false,
   "productionOrigin": "https://naminoto.github.io",
   "previewOwner": "yoribi-preview",
   "previewUrl": "https://yoribi-preview.github.io/yoribi-test/",
   "requiresApproval": true,
+  "candidateChanges": [
+    "Encrypted .yoribi backups and legacy ZIP restore",
+    "Managed data deletion and privacy guidance",
+    "iOS storage guidance and Safari-to-Home-Screen transfer steps",
+    "High-resolution profile-image crop, compression and cancel-state fixes",
+    "Person-form initial focus fix",
+    "Bundled published-release history"
+  ],
+  "compatibility": {
+    "indexedDBVersion": 3,
+    "zipFormatVersion": 1,
+    "productionUnchanged": true
+  },
   "files": [
     {
-      "path": "assets/index-B2BlJKeF.js",
-      "bytes": 134392,
-      "sha256": "2421ef112dda284786e0e7d6ca008984a95b0d30ce51ba0adb9869bda173082f"
+      "path": "assets/index-CvkN3kCB.css",
+      "bytes": 34268,
+      "sha256": "e4a00038c691aac4591bebc0785e33ef22f3f3bf032cb5a2b89bffb1f44db124"
     },
     {
-      "path": "assets/index-C-wwZ_a0.css",
-      "bytes": 31595,
-      "sha256": "fcca587360d0839954248871f1da9404601912f7e9354631422bc3b548f6d447"
+      "path": "assets/index-DrvJTi0N.js",
+      "bytes": 185847,
+      "sha256": "c62f59133657109191bec641640294e2d86af70d5578f806b0a4a572a14a1090"
     },
     {
       "path": "fonts/zen-maru-gothic/METADATA.pb",
@@ -74,8 +90,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 17177,
-      "sha256": "e6d3512aa1aafd3c800e4ecfacc18626d8045c28ece93c6fdb22a000ccac0ecc"
+      "bytes": 17688,
+      "sha256": "72ad7ac544f2ba118170820043c42693d219fe9d72cc906129e9332b6cba3bdc"
     },
     {
       "path": "manifest.webmanifest",
@@ -84,102 +100,8 @@
     },
     {
       "path": "sw.js",
-      "bytes": 2304,
-      "sha256": "0c965e620389932219bdc2116f4c9b06b5a53e63f2b02d42c0a750757fbc47f1"
-    }
-  ],
-  "releaseHistory": [
-    {
-      "date": "2026-10-22",
-      "appVersion": "1.4.1",
-      "changes": [
-        "Remove person ellipsis buttons only inside calendar date cells; keep rail and People menus.",
-        "Unify date background, number, person icon and overflow taps into the existing day-event list; preserve empty-date registration and month/scroll position.",
-        "Add Manage, confirmed atomic multi-person deletion, and display-only name/birthday/registration-date sorting.",
-        "Preserve pointer drag/drop, person editing/deletion menus, dark cards, Home birthday-today exclusion and centered 80-percent 48px Add person button."
-      ],
-      "compatibilityNotes": [
-        "Version 1.4.1, IndexedDB v3, ZIP v1, existing data, Service Worker scope and production are unchanged. Bulk cancellation and transaction abort preserve all selected profiles, images, anniversaries and notifications."
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "appVersion": "1.4.1",
-      "changes": [
-        "Person action menus: Move date, Edit person and confirmed Delete person; long press in People, ellipsis in Calendar.",
-        "Drag people from the calendar rail onto a date with confirmation, cancellation and save-failure protection.",
-        "Dark person cards and text avatars with visible selection, focus and drag states; original photos and light theme unchanged."
-      ],
-      "compatibilityNotes": [
-        "IndexedDB v3, ZIP v1, user data, Service Worker scope and production remain unchanged. Existing birthday-today exclusion and centered 80-percent 48px Add person button are maintained."
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "appVersion": "1.4.1",
-      "changes": [
-        "Show birthdays occurring today only in Today events, excluding today from Next birthday and Upcoming birthdays.",
-        "Keep everyone sharing the next future birthday date, manual order, empty states, year boundaries and leap-day rules. Keep the centered 80-percent, 48px Add person button."
-      ],
-      "compatibilityNotes": [
-        "IndexedDB v3, ZIP v1, all user data, shared date calculations, Service Worker scope and production are unchanged. Today-only birthdays are not shifted to next year in Home upcoming sections."
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "appVersion": "1.4.1",
-      "changes": [
-        "Style the existing Add person button at 80% of its content width, horizontally centered, with 48px height and centered icon/text.",
-        "Preserve Calendar > Add person > People order, five navigation items, no Add person on Home, and the existing form."
-      ],
-      "compatibilityNotes": [
-        "IndexedDB v3, ZIP v1, all user data, category values, Service Worker scope and production are unchanged."
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "appVersion": "1.4.1",
-      "changes": [
-        "Move Add person below the monthly calendar final week and above the People heading and count, in both DOM and visual order at every viewport.",
-        "Keep the five navigation items, no Add person on Home, and the existing form and Calendar screen after save or cancel."
-      ],
-      "compatibilityNotes": [
-        "IndexedDB v3, ZIP v1, all user data, stored category values, Service Worker scope and production are unchanged."
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "appVersion": "1.4.1",
-      "changes": [
-        "Move Add person directly below the birthday and anniversary calendar heading, reusing the existing form.",
-        "Restore the five navigation items: Home, Calendar, People, Birthdays, Settings. Keep Home without an Add person button."
-      ],
-      "compatibilityNotes": [
-        "Save and cancel retain the Calendar screen. IndexedDB v3, ZIP v1, all user data, category values, scope and production are unchanged."
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "appVersion": "1.4.1",
-      "changes": [
-        "Rename the REAL_FRIEND display label to 現実の知り合い / In-person acquaintances without changing stored category values.",
-        "Move Add person from Home to the shared navigation between Calendar and People, reusing the existing form."
-      ],
-      "compatibilityNotes": [
-        "IndexedDB v3, ZIP format v1, existing data, Service Worker scope and production remain unchanged."
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "appVersion": "1.4.1",
-      "changes": [
-        "Show everyone sharing the next birthday date, preserving the existing date rules and manual order.",
-        "Use month/day selectors for anniversaries and optional birthday-year selection or custom entry (100-9999)."
-      ],
-      "compatibilityNotes": [
-        "IndexedDB v3 and ZIP format v1 are unchanged. Existing data and old ZIP backups remain readable by this preview.",
-        "New ZIP backups containing birthday years outside 1900-2100 cannot be restored by the older production or preview app: its validation rejects these years. Restore such backups only with this updated preview or a later compatible app. Do not import preview data into production."
-      ]
+      "bytes": 2898,
+      "sha256": "9bb0ee28e09716ced6d6cc866e298e778035e43e893cdee685f38729871624a4"
     }
   ]
 }
