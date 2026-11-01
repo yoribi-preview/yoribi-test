@@ -1,6 +1,6 @@
 {
   "purpose": "Isolated iPhone preview; NOT published",
-  "createdAt": "2026-10-30T09:27:34.622Z",
+  "createdAt": "2026-11-01T11:42:56.376Z",
   "sourceVersion": "1.4.2",
   "appVersion": "1.4.3-candidate",
   "releaseChannel": "candidate",
@@ -15,7 +15,8 @@
     "iOS storage guidance and Safari-to-Home-Screen transfer steps",
     "High-resolution profile-image crop, compression and cancel-state fixes",
     "Person-form initial focus fix",
-    "Bundled published-release history"
+    "Bundled published-release history",
+    "Preview-only avatar picker event diagnostics"
   ],
   "compatibility": {
     "indexedDBVersion": 3,
@@ -24,9 +25,9 @@
   },
   "files": [
     {
-      "path": "assets/index-CLnP4Ojj.js",
-      "bytes": 186187,
-      "sha256": "12a7ba2ee8c8819a66b0e4c96808eb4f66ee74b88afc0f09475fc85c52343b26"
+      "path": "assets/index-B9ytjN-u.js",
+      "bytes": 191200,
+      "sha256": "fbebc39d68f3c76eaa88fdd28be8d8b9aa2960c68527796665876511e3379a49"
     },
     {
       "path": "assets/index-CvkN3kCB.css",
@@ -91,7 +92,7 @@
     {
       "path": "index.html",
       "bytes": 17688,
-      "sha256": "67474c9397330fe5e3b2f733129c5d4464bca2c2c33b7f8bb3b7292079ef7ce5"
+      "sha256": "ca87e7dd7693b94db9bb67b80e8823d9cc29a043ca846a7e17c826ef41cc064c"
     },
     {
       "path": "manifest.webmanifest",
@@ -101,7 +102,7 @@
     {
       "path": "sw.js",
       "bytes": 2898,
-      "sha256": "b43f98a99c85f062a22dc9c8209cbe324d4db1667b14afbfd6bc880100d14698"
+      "sha256": "801ecf8638225b546fb04bacc187924b85bb6938de061d602074b9d254097e68"
     }
   ]
 }
