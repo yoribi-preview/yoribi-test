@@ -1,10 +1,11 @@
 {
   "purpose": "Isolated iPhone preview; NOT published",
-  "createdAt": "2026-11-02T22:59:17.810Z",
-  "sourceVersion": "1.4.2",
+  "createdAt": "2026-11-02T23:40:02.622Z",
+  "sourceVersion": "1.4.3",
   "appVersion": "1.4.3-candidate",
   "releaseChannel": "candidate",
   "officialRelease": false,
+  "avatarDiagnostics": false,
   "productionOrigin": "https://naminoto.github.io",
   "previewOwner": "yoribi-preview",
   "previewUrl": "https://yoribi-preview.github.io/yoribi-test/",
@@ -15,8 +16,7 @@
     "iOS storage guidance and Safari-to-Home-Screen transfer steps",
     "High-resolution profile-image crop, compression and cancel-state fixes",
     "Person-form initial focus fix",
-    "Bundled published-release history",
-    "Preview-only avatar picker event diagnostics",
+    "Bundled release-candidate history",
     "iPhone multiple photo picker with exactly-one selection safeguard"
   ],
   "compatibility": {
@@ -26,14 +26,14 @@
   },
   "files": [
     {
+      "path": "assets/index-BBZ5L3Ac.js",
+      "bytes": 190514,
+      "sha256": "97bae84a3150a664da008f7682dfa07476d8a208d4ba38f43a5cc5f620c6b6e1"
+    },
+    {
       "path": "assets/index-BKNEK1_Y.css",
       "bytes": 34537,
       "sha256": "b1b6fba0cffb122f90bf4aacd4e5a89b8375d46b2d11f442154d29704c956b6c"
-    },
-    {
-      "path": "assets/index-DWypkgc-.js",
-      "bytes": 192273,
-      "sha256": "4528d7e5881ca946ebbfb5bea9acbd8c91da3e582588218654e609bb3a5fae98"
     },
     {
       "path": "fonts/zen-maru-gothic/METADATA.pb",
@@ -93,7 +93,7 @@
     {
       "path": "index.html",
       "bytes": 17826,
-      "sha256": "b2f06ff93e02ffe634ea8d4607fd4068866fbb3bcf2f6dc4fe8b434bbcb3fa55"
+      "sha256": "bfc2fbf4ec7a5d99f3428a79d23acba7861cd0b4c90ffb6d41bb90b963888760"
     },
     {
       "path": "manifest.webmanifest",
@@ -103,7 +103,7 @@
     {
       "path": "sw.js",
       "bytes": 2898,
-      "sha256": "71deadd7ffe03889e50d046ea61fb922e5d2db5e158af6fa774d7cc037a1ffe5"
+      "sha256": "30d8a94cf968f49e0ab11da86b9e3d967e3cb7567df594914e912bf49c5fd5fb"
     }
   ]
 }
