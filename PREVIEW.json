@@ -1,6 +1,6 @@
 {
   "purpose": "Isolated iPhone preview; NOT published",
-  "createdAt": "2026-11-03T14:12:15.114Z",
+  "createdAt": "2026-11-03T15:37:26.625Z",
   "sourceVersion": "1.4.3",
   "appVersion": "1.4.3-candidate",
   "releaseChannel": "candidate",
@@ -17,7 +17,8 @@
     "High-resolution profile-image crop, compression and cancel-state fixes",
     "Person-form initial focus fix",
     "Bundled release-candidate history",
-    "iPhone multiple photo picker with exactly-one selection safeguard"
+    "iPhone multiple photo picker with exactly-one selection safeguard",
+    "Password AutoFill-safe read-only confirmation preview"
   ],
   "compatibility": {
     "indexedDBVersion": 3,
@@ -26,14 +27,14 @@
   },
   "files": [
     {
-      "path": "assets/index-BKNEK1_Y.css",
-      "bytes": 34537,
-      "sha256": "b1b6fba0cffb122f90bf4aacd4e5a89b8375d46b2d11f442154d29704c956b6c"
+      "path": "assets/index-COKl1QZw.css",
+      "bytes": 35424,
+      "sha256": "f703c74bf5b5a480cd59b988155d13f18dc15866efafa1ab51176902db64f455"
     },
     {
-      "path": "assets/index-ByKiDd76.js",
-      "bytes": 191775,
-      "sha256": "63d6fe469c167c82d0d86024915a29a31faa7a00c67018d0d3106f38f1b1d414"
+      "path": "assets/index-DJDdhhXi.js",
+      "bytes": 193142,
+      "sha256": "2f034f5bb6223462f0392f9f41c7fddf92b55833704382b054805aecbb444a85"
     },
     {
       "path": "fonts/zen-maru-gothic/METADATA.pb",
@@ -93,7 +94,7 @@
     {
       "path": "index.html",
       "bytes": 17826,
-      "sha256": "1c5b39163ee1c8a61256c6a46ce46056e808abe1835484e37e123064cbc2ed57"
+      "sha256": "ede0034e4d5588710b1db54d4bbbdadb0e2e4bd1c16f814529e5d0c7e87c6114"
     },
     {
       "path": "manifest.webmanifest",
@@ -103,7 +104,7 @@
     {
       "path": "sw.js",
       "bytes": 2898,
-      "sha256": "772e82815773ddecfa50ca4a08e6b23b7cdf7cd6b9206554fb0e93fbeee0bb47"
+      "sha256": "90cdae3fd235ed97d85871c052e03df866c18f19c9807e468880799edc78c271"
     }
   ]
 }
