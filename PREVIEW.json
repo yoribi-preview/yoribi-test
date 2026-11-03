@@ -1,6 +1,6 @@
 {
   "purpose": "Isolated iPhone preview; NOT published",
-  "createdAt": "2026-11-03T07:12:02.364Z",
+  "createdAt": "2026-11-03T09:30:14.088Z",
   "sourceVersion": "1.4.3",
   "appVersion": "1.4.3-candidate",
   "releaseChannel": "candidate",
@@ -31,9 +31,9 @@
       "sha256": "b1b6fba0cffb122f90bf4aacd4e5a89b8375d46b2d11f442154d29704c956b6c"
     },
     {
-      "path": "assets/index-CUhGOAPJ.js",
-      "bytes": 190849,
-      "sha256": "af37a3a77bf5f888a8c21130b68a614661901e1937c18adfe94f0ca0506d1cea"
+      "path": "assets/index-CO4W4-tV.js",
+      "bytes": 191259,
+      "sha256": "023b37b85f79f139005fbc4074256294a273a73078bf2c2ea5b41bc0191de0ac"
     },
     {
       "path": "fonts/zen-maru-gothic/METADATA.pb",
@@ -93,7 +93,7 @@
     {
       "path": "index.html",
       "bytes": 17826,
-      "sha256": "c08ad6ac94cd26e4dda8dc9fcdc1d22ef86da328090b9b631f49837ab086e516"
+      "sha256": "9013b3047000a343c416d177536c18adb562291929655dbdd3d68f10ce0a04f3"
     },
     {
       "path": "manifest.webmanifest",
@@ -103,7 +103,7 @@
     {
       "path": "sw.js",
       "bytes": 2898,
-      "sha256": "b4559792da29d240a3e0ea4ca4a2778bd4e0d0aaf2558f29ab91ade5de76a339"
+      "sha256": "8dff683831dead8ec02707912081cf8c3bcec82229c105ff8932061e0db0295a"
     }
   ]
 }
