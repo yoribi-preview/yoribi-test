@@ -1,6 +1,6 @@
 {
   "purpose": "Isolated iPhone preview; NOT published",
-  "createdAt": "2026-11-05T13:46:19.380Z",
+  "createdAt": "2026-11-05T18:30:55.203Z",
   "sourceVersion": "1.5.0",
   "appVersion": "1.5.0-candidate",
   "releaseChannel": "candidate",
@@ -16,6 +16,10 @@
     "Create and select custom categories inside the person add and edit form without losing drafts",
     "Custom categories keep creation order and Other is always last",
     "Animated bottom navigation indicator with a one-person to two-person icon transition",
+    "Synchronized month-day and inline birthday calendar editing without leaving the person form",
+    "Overlay category filters for the calendar and independent person management filtering",
+    "In-app bulk delete confirmation with filtered selection safety",
+    "Removed the duplicate header settings button while preserving bottom navigation",
     "Multi-category calendar visibility controls",
     "Category backup format v2 with v0/v1 restore compatibility",
     "X profile URL username auto-fill guidance",
@@ -33,14 +37,14 @@
   },
   "files": [
     {
-      "path": "assets/index-BU-hyCuw.css",
-      "bytes": 40376,
-      "sha256": "6ab435414f1674ed49b879a70b9816b30d21d597d073063d8f463489acfcd821"
+      "path": "assets/index-CAdyDBsK.css",
+      "bytes": 42215,
+      "sha256": "b285f1b9c823eafc1a9ff2cf8008d45508b957dfe588889e99ef87907abd599d"
     },
     {
-      "path": "assets/index-V6E6CCBd.js",
-      "bytes": 214668,
-      "sha256": "c7107c86df0e18d9d8b4c623d1b3fb32d7d9afade24ad85d70fa6b8e4e1ab845"
+      "path": "assets/index-Dw4hbTz8.js",
+      "bytes": 221593,
+      "sha256": "b359e1544df6f59d06a45c5470c852e1afaeaed37da7040f59dcb61ef666b375"
     },
     {
       "path": "fonts/zen-maru-gothic/METADATA.pb",
@@ -99,8 +103,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 21370,
-      "sha256": "2c1439d24eb0961fc6086fe48d4261f1cfc2d459271905f63d7e05bc834561fc"
+      "bytes": 23916,
+      "sha256": "94ac4de79cfd3cddb6694b43ff049304e655b01635502321e3dad56c7881714d"
     },
     {
       "path": "manifest.webmanifest",
@@ -110,7 +114,7 @@
     {
       "path": "sw.js",
       "bytes": 2898,
-      "sha256": "3782c3e0dcaae3b13f4e84f630917d678cdfa33dfa3b1715039072008a79f958"
+      "sha256": "8b9ef6dada74d853fd9dbf3457a985e912ac01841a904ddd659c0cfbfdf098ae"
     }
   ]
 }
