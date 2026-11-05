@@ -1,8 +1,8 @@
 {
   "purpose": "Isolated iPhone preview; NOT published",
-  "createdAt": "2026-11-03T15:37:26.625Z",
+  "createdAt": "2026-11-05T05:52:10.916Z",
   "sourceVersion": "1.4.3",
-  "appVersion": "1.4.3-candidate",
+  "appVersion": "1.5.0-candidate",
   "releaseChannel": "candidate",
   "officialRelease": false,
   "avatarDiagnostics": false,
@@ -11,30 +11,33 @@
   "previewUrl": "https://yoribi-preview.github.io/yoribi-test/",
   "requiresApproval": true,
   "candidateChanges": [
-    "Encrypted .yoribi backups and legacy ZIP restore",
-    "Managed data deletion and privacy guidance",
-    "iOS storage guidance and Safari-to-Home-Screen transfer steps",
-    "High-resolution profile-image crop, compression and cancel-state fixes",
-    "Person-form initial focus fix",
-    "Bundled release-candidate history",
-    "iPhone multiple photo picker with exactly-one selection safeguard",
-    "Password AutoFill-safe read-only confirmation preview"
+    "Eight built-in categories with stable identifiers",
+    "Custom category add, rename, color and transactional reassignment on delete",
+    "Multi-category calendar visibility controls",
+    "Category backup format v2 with v0/v1 restore compatibility",
+    "X profile URL username auto-fill guidance",
+    "Existing v1.4.3 encrypted backup, photo picker and Password AutoFill-safe password preview features"
   ],
   "compatibility": {
     "indexedDBVersion": 3,
-    "zipFormatVersion": 1,
+    "zipFormatVersion": 2,
+    "restoresZipFormatVersions": [
+      0,
+      1,
+      2
+    ],
     "productionUnchanged": true
   },
   "files": [
     {
-      "path": "assets/index-COKl1QZw.css",
-      "bytes": 35424,
-      "sha256": "f703c74bf5b5a480cd59b988155d13f18dc15866efafa1ab51176902db64f455"
+      "path": "assets/index-DrEbkXAw.css",
+      "bytes": 37934,
+      "sha256": "919605145960d2cf6326f1008542fbbef9107c94908f8efc69eb1de3757c214e"
     },
     {
-      "path": "assets/index-DJDdhhXi.js",
-      "bytes": 193142,
-      "sha256": "2f034f5bb6223462f0392f9f41c7fddf92b55833704382b054805aecbb444a85"
+      "path": "assets/index-U0qVA-XV.js",
+      "bytes": 208565,
+      "sha256": "014639e10670c92ac99d2259f80527a1f5ba2e5d8f4f52803b9efbe8f435806a"
     },
     {
       "path": "fonts/zen-maru-gothic/METADATA.pb",
@@ -93,8 +96,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 17826,
-      "sha256": "ede0034e4d5588710b1db54d4bbbdadb0e2e4bd1c16f814529e5d0c7e87c6114"
+      "bytes": 20011,
+      "sha256": "5ce5d5dbb89396d69574c1a6e77f4f2c36c4194a1884ee8d617f2023a3614b04"
     },
     {
       "path": "manifest.webmanifest",
@@ -104,7 +107,7 @@
     {
       "path": "sw.js",
       "bytes": 2898,
-      "sha256": "90cdae3fd235ed97d85871c052e03df866c18f19c9807e468880799edc78c271"
+      "sha256": "b8d8e7bb8fc43ff904b79ecae590b8b6ddc804e03bb61337d00db903cf6d019a"
     }
   ]
 }
