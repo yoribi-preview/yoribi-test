@@ -1,6 +1,6 @@
 {
   "purpose": "Isolated iPhone preview; NOT published",
-  "createdAt": "2026-11-05T06:22:17.434Z",
+  "createdAt": "2026-11-05T06:44:55.656Z",
   "sourceVersion": "1.4.3",
   "appVersion": "1.5.0-candidate",
   "releaseChannel": "candidate",
@@ -14,6 +14,7 @@
     "Eight built-in categories with stable identifiers",
     "Custom category add, rename, color and transactional reassignment on delete",
     "Create and select custom categories inside the person add and edit form without losing drafts",
+    "Custom categories keep creation order and Other is always last",
     "Multi-category calendar visibility controls",
     "Category backup format v2 with v0/v1 restore compatibility",
     "X profile URL username auto-fill guidance",
@@ -31,9 +32,9 @@
   },
   "files": [
     {
-      "path": "assets/index-BnTW7a0f.js",
-      "bytes": 210830,
-      "sha256": "2561f21cf8f35a46464bba4bbf186a406b79e786eb86176d8d1704efd05163a4"
+      "path": "assets/index-ClEr8SXP.js",
+      "bytes": 210890,
+      "sha256": "4dbad33c1d06d3689ee77ab303e7a210a881182aab826442b36b5376d7cd7127"
     },
     {
       "path": "assets/index-CuXSR4NW.css",
@@ -98,7 +99,7 @@
     {
       "path": "index.html",
       "bytes": 21370,
-      "sha256": "4dc9fb7f70cfee743c2e524aed8baed2daf319f2f0ff96d7c5703a288b968b8a"
+      "sha256": "d7b500bed34d9fb5eca237f90a79069607a04706c9b674abdaf918e83bf4c167"
     },
     {
       "path": "manifest.webmanifest",
@@ -108,7 +109,7 @@
     {
       "path": "sw.js",
       "bytes": 2898,
-      "sha256": "d8dd1d9726bc2b92da849aa4662079bbe2abdd2b7d16ca5764da56acfbdd782a"
+      "sha256": "012567e9008f5acbdbe21317ec9aa1b64db69f49f3f33a009ae387a7f570c5f8"
     }
   ]
 }
