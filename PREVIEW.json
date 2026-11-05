@@ -1,7 +1,7 @@
 {
   "purpose": "Isolated iPhone preview; NOT published",
-  "createdAt": "2026-11-05T06:44:55.656Z",
-  "sourceVersion": "1.4.3",
+  "createdAt": "2026-11-05T13:46:19.380Z",
+  "sourceVersion": "1.5.0",
   "appVersion": "1.5.0-candidate",
   "releaseChannel": "candidate",
   "officialRelease": false,
@@ -15,6 +15,7 @@
     "Custom category add, rename, color and transactional reassignment on delete",
     "Create and select custom categories inside the person add and edit form without losing drafts",
     "Custom categories keep creation order and Other is always last",
+    "Animated bottom navigation indicator with a one-person to two-person icon transition",
     "Multi-category calendar visibility controls",
     "Category backup format v2 with v0/v1 restore compatibility",
     "X profile URL username auto-fill guidance",
@@ -32,14 +33,14 @@
   },
   "files": [
     {
-      "path": "assets/index-ClEr8SXP.js",
-      "bytes": 210890,
-      "sha256": "4dbad33c1d06d3689ee77ab303e7a210a881182aab826442b36b5376d7cd7127"
+      "path": "assets/index-BU-hyCuw.css",
+      "bytes": 40376,
+      "sha256": "6ab435414f1674ed49b879a70b9816b30d21d597d073063d8f463489acfcd821"
     },
     {
-      "path": "assets/index-CuXSR4NW.css",
-      "bytes": 38118,
-      "sha256": "267419393da807fa98a8016112ffd36deb37dbe63d8f4c99dbdb6db3d448acf7"
+      "path": "assets/index-V6E6CCBd.js",
+      "bytes": 214668,
+      "sha256": "c7107c86df0e18d9d8b4c623d1b3fb32d7d9afade24ad85d70fa6b8e4e1ab845"
     },
     {
       "path": "fonts/zen-maru-gothic/METADATA.pb",
@@ -99,7 +100,7 @@
     {
       "path": "index.html",
       "bytes": 21370,
-      "sha256": "d7b500bed34d9fb5eca237f90a79069607a04706c9b674abdaf918e83bf4c167"
+      "sha256": "2c1439d24eb0961fc6086fe48d4261f1cfc2d459271905f63d7e05bc834561fc"
     },
     {
       "path": "manifest.webmanifest",
@@ -109,7 +110,7 @@
     {
       "path": "sw.js",
       "bytes": 2898,
-      "sha256": "012567e9008f5acbdbe21317ec9aa1b64db69f49f3f33a009ae387a7f570c5f8"
+      "sha256": "3782c3e0dcaae3b13f4e84f630917d678cdfa33dfa3b1715039072008a79f958"
     }
   ]
 }
