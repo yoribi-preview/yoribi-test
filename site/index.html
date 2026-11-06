@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#faf7f1">
   <meta name="referrer" content="no-referrer">
-  <meta name="yoribi-preview-version" content="1.5.0-candidate">
-  <meta name="yoribi-preview-title" content="Yoribi テスト · v1.5.0候補">
+  <meta name="yoribi-preview-version" content="1.6.0-candidate">
+  <meta name="yoribi-preview-title" content="Yoribi テスト · v1.6.0候補">
   <meta name="description" content="端末だけで大切な人の誕生日を管理する、オフライン対応カレンダー">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="Yoribi テスト">
@@ -15,14 +15,14 @@
   <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="48x48" href="./icons/favicon-48.png">
   <link rel="manifest" href="./manifest.webmanifest">
-  <title>Yoribi テスト · v1.5.0候補</title>
-  <script type="module" crossorigin src="./assets/index-CMrKhifQ.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-9sFqqtum.css">
+  <title>Yoribi テスト · v1.6.0候補</title>
+  <script type="module" crossorigin src="./assets/index-D9JmWv1R.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DcyBodyw.css">
 </head>
 <body>
   <a class="skip" href="#main">本文へ移動</a>
   <div class="app-shell">
-    <div class="update-banner" id="preview-candidate-banner" role="status"><span><strong>テスト版 / Test build</strong> · v1.5.0候補</span></div>
+    <div class="update-banner" id="preview-candidate-banner" role="status"><span><strong>テスト版 / Test build</strong> · v1.6.0候補</span></div>
     <header class="topbar">
       <div class="brand"><span class="brand-mark"><img src="./icons/icon-192.png" alt=""></span><div><strong>Yoribi</strong><small>大切な人の、大切な日をそっとそばに。</small></div></div>
       <button class="icon-button bell" id="bell" type="button" aria-label="通知を開く">🔔<span id="unread-badge" hidden>0</span></button>
@@ -30,10 +30,9 @@
     <div class="update-banner" id="update-banner" role="status" aria-live="polite" hidden><span id="update-message">アップデートがあります。データは端末に残ります。</span><div class="update-actions"><button id="update-later" type="button">あとで</button><button id="update-app" type="button">更新する</button></div></div>
     <main id="main">
       <section class="view" id="view-home">
-        <section class="home-section" aria-labelledby="home-today-title"><div class="home-heading"><h2 id="home-today-title">今日の予定</h2><time id="home-today-date"></time></div><div class="home-list" id="home-today"></div></section>
-        <section class="home-section" aria-labelledby="home-next-title"><div class="home-heading"><h2 id="home-next-title">次の誕生日</h2></div><div class="home-list" id="home-next"></div></section>
-        <section class="home-section" aria-labelledby="home-upcoming-title"><div class="home-heading"><h2 id="home-upcoming-title">もうすぐ誕生日</h2><span id="home-upcoming-range">30日以内</span></div><div class="home-list" id="home-upcoming"></div></section>
-        <section class="home-section" aria-labelledby="home-anniversaries-title"><div class="home-heading"><h2 id="home-anniversaries-title">その他の近日記念日</h2><span id="home-anniversaries-range">14日以内</span></div><div class="home-list" id="home-anniversaries"></div></section>
+        <header class="home-notebook-head"><p class="eyebrow">CELEBRATIONS</p><time id="home-today-date"></time></header>
+        <section class="home-section home-next-section" aria-labelledby="home-next-title"><div class="home-heading"><h2 id="home-next-title">次のお祝い</h2></div><div id="home-next"></div></section>
+        <section class="home-section home-upcoming-section" aria-labelledby="home-upcoming-title"><div class="home-heading"><h2 id="home-upcoming-title">これからのお祝い</h2><button class="quiet home-see-all" id="home-see-all" type="button">すべて見る</button></div><div class="home-list" id="home-upcoming"></div></section>
       </section>
 
       <section class="view" id="view-calendar" hidden>

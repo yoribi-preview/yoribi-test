@@ -1,8 +1,8 @@
 {
   "purpose": "Isolated iPhone preview; NOT published",
-  "createdAt": "2026-11-06T10:46:03.721Z",
-  "sourceVersion": "1.5.0",
-  "appVersion": "1.5.0-candidate",
+  "createdAt": "2026-11-06T18:46:59.665Z",
+  "sourceVersion": "1.6.0",
+  "appVersion": "1.6.0-candidate",
   "releaseChannel": "candidate",
   "officialRelease": false,
   "avatarDiagnostics": false,
@@ -26,6 +26,11 @@
     "Fixed UI text resists accidental touch selection while inputs, notes and profile links remain selectable",
     "In-app bulk delete confirmation with filtered selection safety",
     "Removed the duplicate header settings button while preserving bottom navigation",
+    "Synchronized month-day and inline calendar editing for anniversaries",
+    "Weekday labels for upcoming birthdays and anniversaries",
+    "Notebook-style home view combining the next and upcoming birthdays and anniversaries",
+    "Birthday navigation flame is aligned above the candle",
+    "Removed the obsolete person-menu date move while preserving calendar drag and long-press moves",
     "Multi-category calendar visibility controls",
     "Category backup format v2 with v0/v1 restore compatibility",
     "X profile URL username auto-fill guidance",
@@ -43,14 +48,14 @@
   },
   "files": [
     {
-      "path": "assets/index-9sFqqtum.css",
-      "bytes": 44731,
-      "sha256": "38cf14609be133948ac79324a7abd29ef043fe474782e2f0dbce88fbdde71ed5"
+      "path": "assets/index-D9JmWv1R.js",
+      "bytes": 227961,
+      "sha256": "25168d21a3a0ad882c826a721737c1cc0d1b77e5ca693d1b3ee3d6c879d76de6"
     },
     {
-      "path": "assets/index-CMrKhifQ.js",
-      "bytes": 222535,
-      "sha256": "880cd48ddd4d98aaf745681f5ffbce976e8fc04403bd6644124d66fbfc92a290"
+      "path": "assets/index-DcyBodyw.css",
+      "bytes": 47457,
+      "sha256": "68e1b18a31bbfa1f1bdcb8b4d40053b4642df56ff6bcfc126d546a85d6a96b9f"
     },
     {
       "path": "fonts/zen-maru-gothic/METADATA.pb",
@@ -109,8 +114,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 23941,
-      "sha256": "bd934e32a82c288d23c457695eb112d13b3044db40500808d03c798b709d251c"
+      "bytes": 23592,
+      "sha256": "fdd16bf3e94924a5d19bb82b427d55890e1929d642bdf5acf526ca21b4f6dcab"
     },
     {
       "path": "manifest.webmanifest",
@@ -120,7 +125,7 @@
     {
       "path": "sw.js",
       "bytes": 2898,
-      "sha256": "d7b030812c775beae5f0b16455f80e50671147f44604d85a8bcc54fa3ed01560"
+      "sha256": "0839e40c4aa2e9803c22ae5e0f08ff99e94ba62627055989736f2ef0b2967301"
     }
   ]
 }
